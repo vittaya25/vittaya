@@ -1,0 +1,144 @@
+body{
+  margin: 0px;
+}
+#show_bar{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  display: none;
+  background-color: white;
+
+}
+#select_language{
+  text-align: right;
+}
+#contact_for_phone{
+  display: none;
+}
+.click_show_icon_contact{
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  background-color: inherit;
+  width: 10vw;
+  border-radius: 10%;
+  border: 2px solid black;
+}
+.click_show_icon_contact:hover{
+  background-color: gray;
+}
+.icon_contact{
+  display: none;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+}
+.icon_flex{
+  display: flex;
+}
+.icon_chat_chi{
+  width: 10vw;
+  margin: 5px;
+}
+.icon_chat_chi:hover{
+  background-color: gray;
+  border-radius: 10%;
+  border: 2px solid black;
+}
+.delete_underline_link{
+  text-decoration: none;
+  color: black;
+}
+
+.flex_content{
+  display: flex;
+}
+.container1{
+  background-color: white;
+  width: 300px;
+  height: 650px;
+  margin: 90px 5vw 0px 5vw;
+}
+.container2{
+  background-color: white;
+  width: 800px;
+  height: auto;
+  margin: 90px 0px 0px 10px;
+}
+.logo_tab{
+  width: 50px;
+  margin-right: 20px;
+}
+.myprofile{
+  width: 100%;
+  border-radius:50%;
+  padding: 30px;
+}
+.bg_tab{
+  background-color: #d8e3e7;
+}
+.underline_profile{
+  width: 80%;
+  margin: auto;
+  height: 5px;
+  border-radius: 5px;
+}
+.padding_profile{
+  margin: 15px;
+}
+.content50per{
+  width: 50%;
+}
+.profile_contact{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.text1{
+  padding-top: 60px;
+  padding-right: 40px;
+  text-align: center;
+}
+.about_me{
+  padding: 25px;
+}
+
+@media only screen and (max-width: 900px) {
+  body{
+
+  }
+  #contact_for_phone{
+    display: block;
+  }
+  .delete_underline_link{
+    text-decoration: none;
+    color: black;
+  }
+  #select_language{
+    margin-bottom: 100px;
+  }
+  .flex_content{
+    display: block;
+  }
+  .container1{
+
+    display: none;
+  }
+  .container2{
+    width: 80%;
+    height: auto;
+    margin: auto;
+  }
+  .text1{
+    padding: 10px 0px 0px 0px;
+    margin: auto auto 70px auto;
+    font-size: 3vw;
+    width: 70%;
+
+  }
+  .profile1{
+    margin: auto;
+    width: 60%;
+  }
+}
