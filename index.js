@@ -9,7 +9,7 @@ window.addEventListener('scroll',  () => {
       document.getElementById("select_language").style.display = "none";
     }
 
-  }else if (scrolly < 180 ) {
+  }else if (scrolly < 150 ) {
     if(stylebar == "block"){
       document.getElementById("show_bar").style.display = "none";
       document.getElementById("select_language").style.display = "block";

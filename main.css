@@ -20,7 +20,7 @@ body{
   right: 40px;
   bottom: 40px;
   background-color: inherit;
-  width: 10vw;
+  width: 50px;
   border-radius: 10%;
   border: 2px solid black;
 }
@@ -37,7 +37,7 @@ body{
   display: flex;
 }
 .icon_chat_chi{
-  width: 10vw;
+  width: 50px;
   margin: 5px;
 }
 .icon_chat_chi:hover{
@@ -52,6 +52,9 @@ body{
 
 .flex_content{
   display: flex;
+}
+.navbar-brand{
+  margin: 0px 40px 5px 0px;
 }
 .container1{
   background-color: white;
@@ -103,7 +106,19 @@ body{
 .about_me{
   padding: 25px;
 }
-
+.hr_home{
+  width: 100%;
+  background-color: #51c4d3;
+  height: 10px;
+}
+.carousel_1{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.detail_pict{
+  height: 300px;
+  width:  300px;
+}
 @media only screen and (max-width: 1000px) {
   body{
 
@@ -136,6 +151,14 @@ body{
     font-size: 3vw;
     width: 70%;
 
+  }
+  .carousel_1{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .detail_pict{
+    height: 250px;
+    width:  280px;
   }
   .profile1{
     margin: auto;
