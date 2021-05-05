@@ -1,13 +1,19 @@
 body{
   margin: 0px;
 }
-#show_bar{
-  position: fixed;
-  top: 0px;
-  width: 100%;
-  display: none;
-  background-color: white;
+#ID_body{
+  background-color: #51c4d3;
+}
+.index_1{
+  height: 753px;
+  background-image: url(picture/profile_index.jpg);
+}
+.index_2{
+  height: 753px;
 
+}
+#show_bar{
+  display: none;
 }
 #select_language{
   text-align: right;
@@ -66,7 +72,8 @@ body{
   background-color: white;
   width: 800px;
   height: auto;
-  margin: 90px 0px 0px 10px;
+  margin: 90px 0px 100px 10px;
+
 }
 .logo_tab{
   width: 50px;
@@ -110,21 +117,38 @@ body{
   width: 100%;
   background-color: #51c4d3;
   height: 10px;
+
 }
 .carousel_1{
   padding-left: 80px;
   padding-right: 80px;
 }
 .detail_pict{
-  height: 300px;
+  height: 400px;
   width:  300px;
 }
+.Educaton1{
+  padding: 10px 10px 0px 10px;
+  margin: auto;
+  width: 60%;
+}
+.text1_educaion{
+  margin: auto;
+}
+.margin_Education{
+  margin: 40px 0px 100px 0px;
+}
+
+
 @media only screen and (max-width: 1000px) {
   body{
 
   }
   #contact_for_phone{
     display: block;
+  }
+  .content50per{
+    width: 80%;
   }
   .delete_underline_link{
     text-decoration: none;
@@ -136,8 +160,11 @@ body{
   .flex_content{
     display: block;
   }
+  .detail_pict{
+    height: 500px;
+    width:  400px;
+  }
   .container1{
-
     display: none;
   }
   .container2{
@@ -157,7 +184,7 @@ body{
     padding-right: 40px;
   }
   .detail_pict{
-    height: 250px;
+    height: 400px;
     width:  280px;
   }
   .profile1{
