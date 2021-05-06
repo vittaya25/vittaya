@@ -2,7 +2,13 @@ body{
   margin: 0px;
 }
 #ID_body{
-  background-color: #51c4d3;
+  background-color: #8ab6d6;
+}
+.hr_home{
+  width: 100%;
+  background-color: #8ab6d6;
+  height: 10px;
+
 }
 .index_1{
   height: 753px;
@@ -10,7 +16,6 @@ body{
 }
 .index_2{
   height: 753px;
-
 }
 
 #show_bar{
@@ -120,12 +125,6 @@ body{
 .about_me{
   padding: 25px;
 }
-.hr_home{
-  width: 100%;
-  background-color: #51c4d3;
-  height: 10px;
-
-}
 .carousel_1{
   padding-left: 80px;
   padding-right: 80px;
@@ -146,8 +145,25 @@ body{
 .margin_Education{
   margin: 40px 0px 100px 0px;
 }
-
-
+.content50per_for_skill{
+  width: 50%;
+}
+.card{
+  margin:auto;
+}
+.flex_content_skill{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+.logo_skill{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.logo_python{
+  padding-top: 105px;
+  padding-bottom: 103px;
+}
 @media only screen and (max-width: 1000px) {
   body{
 
@@ -179,6 +195,7 @@ body{
     width: 80%;
     height: auto;
     margin: auto;
+    padding-bottom: 20px;
   }
   .text1{
     padding: 10px 0px 0px 0px;
@@ -198,5 +215,9 @@ body{
   .profile1{
     margin: auto;
     width: 60%;
+  }
+  .flex_content_skill{
+    margin-top: 40px;
+
   }
 }

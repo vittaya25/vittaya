@@ -26,3 +26,7 @@ function closecontact() {
   document.querySelector(".click_show_icon_contact").style.display = "block" ;
   document.querySelector(".icon_contact").style.display = "none" ;
 }
+
+function nocontent() {
+  alert("No content")
+}
