@@ -12,6 +12,7 @@ body{
   height: 753px;
 
 }
+
 #show_bar{
   display: none;
 }
@@ -22,9 +23,9 @@ body{
   display: none;
 }
 .click_show_icon_contact{
-  position: fixed;
-  right: 40px;
-  bottom: 40px;
+
+  margin-left: 400px;
+  margin-bottom: 70px;
   background-color: inherit;
   width: 50px;
   border-radius: 10%;
@@ -35,9 +36,11 @@ body{
 }
 .icon_contact{
   display: none;
-  position: fixed;
-  right: 40px;
-  bottom: 40px;
+
+}
+.icon_contact_show{
+  margin-left: 400px;
+  margin-bottom: 70px;
 }
 .icon_flex{
   display: flex;
@@ -50,12 +53,16 @@ body{
   background-color: gray;
   border-radius: 10%;
   border: 2px solid black;
+  animation-delay: 4s;
 }
 .delete_underline_link{
   text-decoration: none;
   color: black;
 }
-
+.delete_underline_link_white{
+  text-decoration: none;
+  color: white;
+}
 .flex_content{
   display: flex;
 }
@@ -134,6 +141,7 @@ body{
 }
 .text1_educaion{
   margin: auto;
+  padding-right: 10px;
 }
 .margin_Education{
   margin: 40px 0px 100px 0px;
@@ -145,7 +153,7 @@ body{
 
   }
   #contact_for_phone{
-    display: block;
+    display: none;
   }
   .content50per{
     width: 80%;
