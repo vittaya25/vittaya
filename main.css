@@ -8,7 +8,6 @@ body{
   width: 100%;
   background-color: #8ab6d6;
   height: 10px;
-
 }
 .index_1{
   height: 753px;
@@ -17,7 +16,9 @@ body{
 .index_2{
   height: 753px;
 }
-
+#service_picture{
+  width: 100%;
+}
 #show_bar{
   display: none;
 }
