@@ -9,6 +9,7 @@ body{
   background-color: #8ab6d6;
   height: 10px;
 }
+
 .index_1{
   height: 753px;
   background-image: url(picture/profile_index.jpg);
@@ -165,6 +166,14 @@ body{
   padding-top: 105px;
   padding-bottom: 103px;
 }
+#empty{
+  padding-top: 200px;
+  height: 500px;
+}
+.empty_text{
+  text-align: center;
+  font-size: 50px;
+}
 @media only screen and (max-width: 1000px) {
   body{
 
@@ -178,6 +187,10 @@ body{
   .delete_underline_link{
     text-decoration: none;
     color: black;
+  }
+  #empty{
+    padding-top: 250px;
+    height: 500px;
   }
   #select_language{
     margin-bottom: 100px;
