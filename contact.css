@@ -14,7 +14,12 @@ body{
   display: flex;
   width: 80%;
   margin: auto;
-
+}
+#hr_home{
+  background-color: black;
+  margin: auto;
+  width: 80%;
+  height: 10px;
 }
 .map_google{
   padding: 40px;
@@ -60,7 +65,12 @@ body{
     display: block;
     width: 95%;
     margin: auto;
-
+  }
+  #hr_home{
+    background-color: black;
+    margin: auto;
+    width: 95%;
+    height: 10px;
   }
   .content50per1{
     width: 100%;
